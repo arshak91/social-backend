@@ -20,11 +20,18 @@ $ npm run start:prod
 ```
 
 ## APIs
-/auth/login, POST \n
-/auth/register, POST \n
 
-/users/search, GET \n
+### Authorizations
 
-/friends/request, POST \n
-/friends/requests, GET \n
+/auth/login, POST
+/auth/register, POST
+
+### Search for Users
+
+/users/search, GET
+
+### APIs for friendRequests
+
+/friends/request, POST
+/friends/requests, GET
 /friends/respond, PUT
