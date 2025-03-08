@@ -35,3 +35,7 @@ $ npm run start:prod
 /friends/request, POST
 /friends/requests, GET
 /friends/respond, PUT
+
+### restore dump file
+
+/dump/dump-social.sql
