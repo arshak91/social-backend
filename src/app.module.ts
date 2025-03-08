@@ -26,7 +26,7 @@ import { FriendsService } from './friends/friends.service';
         return {
           global: true,
           secret: jwtConstants.secret,
-          signOptions: { expiresIn: '1d' }
+          signOptions: { expiresIn: jwtConstants.interval }
         }
       }
     }),
